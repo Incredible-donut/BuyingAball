@@ -1,0 +1,34 @@
+body
+{
+background-color: #EBFFF8;
+background-image: url(./Images/background.jpg);
+}
+.first-header
+{
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  text-align: center;
+  color: #EBFFF8;
+}
+.ball-image
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.standart-section
+{
+  background-color: #EBFFF8;
+  opacity: 0.5;
+  text-align: center;
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+.standart-text
+{
+  color: black;
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+.center
+{
+  display: block;
+  margin-left: 310px;
+  }
