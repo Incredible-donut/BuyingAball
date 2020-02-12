@@ -30,5 +30,10 @@ background-image: url(./Images/background.jpg);
 .center
 {
   display: block;
-  margin-left: 310px;
-  }
+  margin-left: 620px;
+}
+.first-page-footer
+{
+  background-color: #EBFFF8;
+  opacity: 0.5;
+}
