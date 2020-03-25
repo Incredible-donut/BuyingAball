@@ -12,6 +12,8 @@ position: fixed;
 opacity: 2%;
 align-items: center;
 transition:  0.6s;
+z-index: 2; !important
+font-size: 350%;
 }
 .menu p{
   background-color: #FFE086;
@@ -27,6 +29,7 @@ color: white;
 .menu:hover{
 opacity: 100%;
 border-bottom-right-radius: 40px;
+font-size: 300%;
 }
 .menu a:hover {
 opacity: 100%;
@@ -43,10 +46,11 @@ text-decoration: none;
 list-style: none;
 }
 .vertical-list{
-display: flex;
-flex-flow: row;
+  display: flex;
+  flex-flow: row;
 }
 .header-top{
+  z-index: 1;
   background-color: #FFE086;
   color: white;
   padding: 3px;
@@ -54,6 +58,7 @@ flex-flow: row;
   margin: 0px;
   position: fixed;
   width: 100%;
+  font-size: 300%;
 }
 .div{
     list-style-type: none;
@@ -122,4 +127,75 @@ flex-flow: row;
 .div2{
 list-style-type: none;
 transition: all 0.5s;
+}
+@media (max-width: 986px) {
+ .vertical-list{
+  display: flex;
+  flex-flow: column;
+  margin-left: 340px;
+}
+}
+@media (max-width: 986px) {
+  .cheese-image{
+    height: 986px;
+    width: 986px;
+    border-radius: 0px;
+    border:  10px #FFE086 solid;
+    transition: all 1s;
+    margin: 0px;
+    position: relative;
+  }
+}
+@media (max-width: 986px) {
+  .cheese-image:hover{
+    height: 986px;
+    width: 986px;
+    border-radius: 0px;
+    border:  10px #FFE086 solid;
+    position: relative;
+  }
+@media (max-width: 986px) {
+      .div h2{
+        font-size: 400%;
+      }
+}
+@media (max-width: 986px) {
+      .menu {
+        font-size: 150%;
+      }
+}
+@media (max-width: 986px) {
+  .Contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+    width: 20%;
+    margin-top: 18%;
+    font-size: 350%;
+  }
+}
+@media (max-width: 986px) {
+  .about-image{
+    height: 986px;
+    width: 986px;
+    border-radius: 0px;
+    border:  10px #FFE086 solid;
+    position: relative;
+  }
+  }
+  @media (max-width: 986px) {
+    .about{
+      flex-flow: column-reverse;
+      font-size: 150%;
+    }
+}
+@media (max-width: 986px) {
+  .about-image{
+    height: 600px;
+    width: 600px;
+    border-radius: 0px;
+    border:  10px #FFE086 solid;
+
+  }
 }
